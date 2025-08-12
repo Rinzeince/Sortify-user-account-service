@@ -8,7 +8,7 @@ COPY . .
 # Set environment variables
 ENV APP_ENV=production
 ENV APP_PORT=8080
-ENV PROJECT_ID="sortify-01"
+ENV PROJECT_ID=""
 # Start the application
 CMD [ "npm", "start" ]
 EXPOSE 8080
